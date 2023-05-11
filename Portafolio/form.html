@@ -1,0 +1,74 @@
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Formulario</title>
+
+</head>
+
+<body class="navbar">
+  <div class="formulario">
+
+    <h2>
+      Por favor déjame tus datos y me contactaré contigo lo más pronto posible.
+    </h2>
+
+    <form>
+      <label for="Nombre">
+        ¿Cuál es tu nombre completo? 
+      </label>
+      
+      <input type="text">
+      
+      <label for="email">
+        Email: 
+      </label>
+      
+      <input type="text">
+
+      <label for="Telefono">
+        ¿Cuál es tu número telefonico?: 
+      </label>
+
+      <input type="number">
+
+      <label for="Asunto">
+        ¿Cuál es el asunto de tu mensaje? 
+      </label>
+
+      <input type="text">
+
+      <label for="City" class="ciudad">
+        ¿Cuál es la ciudad donde vives? 
+      </label>
+
+      <select class="ciudad">
+
+        <option value="select">Selecciona tu ciudad: </option>
+        <option value="Cali">Cali</option>
+        <option value="Medellin">Medellin</option>
+        <option value="Bogota">Bogotá</option>
+        <option value="Cartagena">Cartagena</option>
+
+      </select>
+
+      <label for="Mensajes">
+        Escribe tu mensaje: 
+      </label>
+
+      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+        placeholder="Deja aquí tu comentario..."></textarea>
+
+      <button type="submit" name="enviar_formulario" id="enviar">
+        Enviar mensaje
+      </button>
+
+    </form>
+  </div>
+</body>
+
+</html>
