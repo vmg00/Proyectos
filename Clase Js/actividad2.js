@@ -1,15 +1,20 @@
+lista = [1, 2, 3, 4, 5] 
 function mayorArray(array) {
     if (array.lenght == 0) {
         return null;
     }
 
-    else
+    if
         (array.lenght == 1); {
         return array[0];
     }
 
     let numMayor = array[0];
-    for (let i = 1; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
+    
+ if (array[]) {
+    
+ }   
     }
 
     let i = 0;
@@ -31,3 +36,5 @@ function mayorArray(array) {
     return numMayor;
 
 }
+
+console.log("El número mayor es " +  mayorArray(lista));

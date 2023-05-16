@@ -6,6 +6,25 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.dark-mode h1 {
+  color: #000000;
+}
+
+body.dark-mode nav {
+  background-color: #55004a; 
+  color: #ffffff; 
+}
 header {
   background-color: rgb(162, 207, 237);
   color: #ffffff;

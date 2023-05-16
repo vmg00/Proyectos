@@ -69,7 +69,19 @@ div {
   margin-bottom: 0.5rem;
 }
 
+body {
+  background-color: #6d84cf;
+  color: #000000;
+}
 
+body.dark-mode {
+  background-color: #000000;
+  color: #000000;
+}
+
+body.dark-mode h1 {
+  color: #0b76be;
+}
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .navbar {
     background-color:darkorchid;
