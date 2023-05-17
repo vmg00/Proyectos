@@ -157,7 +157,7 @@ header {
   background-color: #80d8cc;
 }
 
-@media screen and (min-width: 414px) and (max-width: 896px) {
+@media screen and (min-width: 414px) and (max-width: 668px) {
   .navbar {
     background-color: darkorchid;
     width: 100%;
@@ -165,7 +165,7 @@ header {
   }
 }
 
-@media screen and (min-width: 899px) and (max-width:1440px) {
+@media screen and (min-width: 669px) and (max-width:1440px) {
   .navbar {
     background-color: #acbcdf;
     width: 100%;
